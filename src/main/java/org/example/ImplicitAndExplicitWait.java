@@ -8,11 +8,10 @@ import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
 import java.time.Duration;
-import java.util.concurrent.TimeUnit;
 
-public class Main {
+public class ImplicitAndExplicitWait {
     public static void main(String[] args) {
-        System.setProperty("webdriver.chrome.driver", "C:\\Users\\Ruslan\\IdeaProjects\\testing_in_java\\src\\main\\resources\\chromedriver.exe");
+        System.setProperty("webdriver.chrome.driver", "C:\\chromedriver\\chromedriver.exe");
         WebDriver driver = new ChromeDriver();
         // неявное ожидание - при поиске элементов по умолчанию ожидаем 10 секунд
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
