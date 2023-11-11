@@ -1,0 +1,37 @@
+Методы явного ожидания:
+
+attributeContains - что то содержит
+attributeToBe - конкретное название
+attributeToBeNotEmpty - не пустое значение
+
+elementToBeSelected - элемент можно выбрать
+elementToBeClickable - элемент кликабелен (виден ли этот элемент и можно ли на него нажать)
+
+invisibilityOf - элемент не виден
+invisibilityOfAllElements - все элементы из списка не видны
+invisibilityOfElementLocated - элемент не виден или отсутствует в доме
+invisibilityOfElementWithText - элемент не виден или отсутствует в доме по тексту
+
+visibility - тоже самое что и у invisibility
+
+not(ExpectedCondition<?>condition) - обратный эффект для методов
+
+numberOfElementsToBe - ожидаем количество элементов локатора равно
+numberOfElementsToBeMoreThan - ожидаем количество элементов больше
+numberOfElementsToBeLessThan - ожидаем количество элементов меньше
+
+presenceOfElementLocated - появление элемента на странице
+presenceOfAllElementsLocatedBy - появление элемента в доме страницы (невидимый элемент есть в доме но нет на странице)
+
+stalenessOf - ожидание исчезновения
+
+textToBe - содержание конкретного текста
+textToBePresentInElement - присутствует текст (входит)
+textToBePresentInElementValue - значение текста у атрибута
+
+titleContains - присутствует заголовок
+titleIs - конкретный заголовок
+
+urlContains - присутствует url
+urlMatches - совпадает url
+urlToBe - конкретный url
